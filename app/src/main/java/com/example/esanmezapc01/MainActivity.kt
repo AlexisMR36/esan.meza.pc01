@@ -16,6 +16,12 @@ import androidx.navigation.NavHost
 import androidx.navigation.compose.rememberNavController
 import com.example.esanmezapc01.ui.theme.Esanmezapc01Theme
 import com.example.esanmezapc01.ui.theme.MainMenu
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import com.example.esanmezapc01.ui.theme.Catalogo
+import com.example.esanmezapc01.ui.theme.ConversorDivisas
+import com.example.esanmezapc01.ui.theme.EdadCanina
+import com.example.esanmezapc01.ui.theme.Menu
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
